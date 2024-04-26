@@ -4,8 +4,9 @@
 
 package net.sourceforge.pmd.lang.soar.ast;
 
-import net.sourceforge.pmd.lang.ast.impl.antlr4.BaseAntlrErrorNode;
 import org.antlr.v4.runtime.Token;
+
+import net.sourceforge.pmd.lang.ast.impl.antlr4.BaseAntlrErrorNode;
 
 public final class SoarErrorNode extends BaseAntlrErrorNode<SoarNode> implements SoarNode {
 

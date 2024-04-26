@@ -1,4 +1,5 @@
 grammar Soar;
+
 @header {
 import net.sourceforge.pmd.lang.ast.impl.antlr4.*;
 import net.sourceforge.pmd.lang.ast.AstVisitor;
@@ -20,11 +21,11 @@ import net.sourceforge.pmd.lang.ast.AstVisitor;
 }
 
 options {
-    contextSuperClass = 'net.sourceforge.pmd.lang.soar.ast.SoarInnerNode';
+    contextSuperClass = 'SoarInnerNode';
     superClass = 'AntlrGeneratedParserBase<SoarNode>';
 }
 
-soar: soar_production+ ;
+topLevel : soar_production+ ;
 
 // Grammar of Soar productions
 soar_production : ('sp'|'gp') '{' sym_constant Documentation? flags? condition_side '-->' action_side '}' ;

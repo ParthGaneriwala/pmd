@@ -14,7 +14,7 @@ import net.sourceforge.pmd.lang.soar.cpd.SoarCpdLexer;
  * Language Module for Soar
  */
 public class SoarLanguageModule extends SimpleLanguageModuleBase {
-    private static final String ID = "swift";
+    private static final String ID = "soar";
 
     /**
      * Create a new instance of Soar Language Module.
@@ -22,17 +22,7 @@ public class SoarLanguageModule extends SimpleLanguageModuleBase {
     public SoarLanguageModule() {
         super(LanguageMetadata.withId(ID).name("Soar")
                               .extensions("soar")
-                              .addVersion("4.2")
-                              .addVersion("5.0")
-                              .addVersion("5.1")
-                              .addVersion("5.2")
-                              .addVersion("5.3")
-                              .addVersion("5.4")
-                              .addVersion("5.5")
-                              .addVersion("5.6")
-                              .addVersion("5.7")
-                              .addVersion("5.8")
-                              .addDefaultVersion("5.9"),
+                              .addDefaultVersion("1.0"),
               new SoarHandler());
     }
 

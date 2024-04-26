@@ -4,11 +4,18 @@
 
 package net.sourceforge.pmd.lang.soar.ast;
 
-import net.sourceforge.pmd.lang.ast.impl.antlr4.AntlrBaseParser;
-import net.sourceforge.pmd.lang.soar.ast.SoarParser.SoarTopLevel;
-import org.antlr.v4.runtime.*;
+import org.antlr.v4.runtime.BaseErrorListener;
+import org.antlr.v4.runtime.CharStream;
+import org.antlr.v4.runtime.CommonTokenStream;
+import org.antlr.v4.runtime.Lexer;
+import org.antlr.v4.runtime.RecognitionException;
+import org.antlr.v4.runtime.Recognizer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import net.sourceforge.pmd.lang.ast.impl.antlr4.AntlrBaseParser;
+import net.sourceforge.pmd.lang.soar.ast.SoarParser.SoarTopLevel;
+
 
 /**
  * Adapter for the SoarParser.

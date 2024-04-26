@@ -4,10 +4,12 @@
 
 package net.sourceforge.pmd.lang.soar.ast;
 
-import net.sourceforge.pmd.lang.ast.impl.antlr4.AntlrNameDictionary;
 import org.antlr.v4.runtime.Vocabulary;
 import org.apache.commons.lang3.StringUtils;
 import org.checkerframework.checker.nullness.qual.Nullable;
+
+import net.sourceforge.pmd.lang.ast.impl.antlr4.AntlrNameDictionary;
+
 
 
 final class SoarNameDictionary extends AntlrNameDictionary {

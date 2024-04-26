@@ -1,12 +1,15 @@
-package net.sourceforge.pmd.lang.soar.ast;/*
+/*
  * BSD-style license; for more info see http://pmd.sourceforge.net/license.html
  */
+
+package net.sourceforge.pmd.lang.soar.ast;
+
+import org.antlr.v4.runtime.ParserRuleContext;
 
 import net.sourceforge.pmd.lang.ast.AstInfo;
 import net.sourceforge.pmd.lang.ast.Parser.ParserTask;
 import net.sourceforge.pmd.lang.ast.RootNode;
 import net.sourceforge.pmd.lang.soar.ast.SoarParser.SoarTopLevel;
-import org.antlr.v4.runtime.ParserRuleContext;
 
 // package private base class
 abstract class SoarRootNode extends SoarInnerNode implements RootNode {

@@ -1,10 +1,13 @@
-package net.sourceforge.pmd.lang.soar.ast;/*
+/*
  * BSD-style license; for more info see http://pmd.sourceforge.net/license.html
  */
 
+package net.sourceforge.pmd.lang.soar.ast;
+
+import org.antlr.v4.runtime.ParserRuleContext;
+
 import net.sourceforge.pmd.lang.ast.AstVisitor;
 import net.sourceforge.pmd.lang.ast.impl.antlr4.BaseAntlrInnerNode;
-import org.antlr.v4.runtime.ParserRuleContext;
 
 // package private base class
 abstract class SoarInnerNode

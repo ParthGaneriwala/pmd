@@ -4,10 +4,12 @@
 
 package net.sourceforge.pmd.lang.soar.cpd;
 
-import net.sourceforge.pmd.cpd.impl.AntlrCpdLexer;
-import net.sourceforge.pmd.lang.soar.ast.SoarLexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Lexer;
+
+import net.sourceforge.pmd.cpd.impl.AntlrCpdLexer;
+import net.sourceforge.pmd.lang.soar.ast.SoarLexer;
+
 
 /**
  * SoarTokenizer
