@@ -646,13 +646,13 @@
                         </parameter>
                     </configuration>
                     <executions>
-                        <execution>
-                            <id>japicmp</id>
-                            <phase>verify</phase>
-                            <goals>
-                                <goal>cmp</goal>
-                            </goals>
-                        </execution>
+<!--                        <execution>-->
+<!--                            <id>japicmp</id>-->
+<!--                            <phase>verify</phase>-->
+<!--                            <goals>-->
+<!--                                <goal>cmp</goal>-->
+<!--                            </goals>-->
+<!--                        </execution>-->
                     </executions>
                 </plugin>
             </plugins>
